@@ -11,22 +11,22 @@ import (
 func main() {
 	db := getDB()
 
-	// user.go
-	AutoMigrate(db, entity.User{})
-
-	// client.go
-	AutoMigrate(db, entity.Client{})
-
-	// contract.go
-	AutoMigrate(db, entity.Contract{})
-	AutoMigrate(db, entity.PurchasingList{})
-	AutoMigrate(db, entity.PurchasingGoods{})
-
-	// dispatch_bill.go
-	AutoMigrate(db, entity.DispatchBill{})
-
-	// purchase_order.go
-	AutoMigrate(db, entity.PurchaseOrder{})
+	//// user.go
+	//AutoMigrate(db, entity.User{})
+	//
+	//// client.go
+	//AutoMigrate(db, entity.Client{})
+	//
+	//// contract.go
+	//AutoMigrate(db, entity.Contract{})
+	//AutoMigrate(db, entity.PurchasingList{})
+	//AutoMigrate(db, entity.PurchasingGoods{})
+	//
+	//// dispatch_bill.go
+	//AutoMigrate(db, entity.DispatchBill{})
+	//
+	//// purchase_order.go
+	//AutoMigrate(db, entity.PurchaseOrder{})
 
 	// goods.go
 	AutoMigrate(db, entity.Goods{})
