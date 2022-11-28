@@ -26,10 +26,10 @@ func main() {
 	//AutoMigrate(db, entity.DispatchBill{})
 	//
 	//// purchase_order.go
-	//AutoMigrate(db, entity.PurchaseOrder{})
+	AutoMigrate(db, entity.PurchaseOrder{})
 
 	// goods.go
-	AutoMigrate(db, entity.Goods{})
+	//AutoMigrate(db, entity.Goods{})
 }
 
 func getDB() (db *gorm.DB) {
