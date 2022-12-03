@@ -26,7 +26,8 @@ func main() {
 	//AutoMigrate(db, entity.DispatchBill{})
 	//
 	//// purchase_order.go
-	AutoMigrate(db, entity.PurchaseOrder{})
+	//AutoMigrate(db, entity.PurchaseOrder{})
+	AutoMigrate(db, entity.PurchaseOrderInfo{})
 
 	// goods.go
 	//AutoMigrate(db, entity.Goods{})
