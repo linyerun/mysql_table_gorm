@@ -1,0 +1,2 @@
+# mysql_table_gorm
+company_sales_management_system项目的数据库表生成代码
